@@ -1,7 +1,7 @@
 ## Event aggregator
 
-Event aggregator is a simple server service. It should be written in Golang and run with the newest version (currently 1.13).
-Try to use only Go standard libraries and implement all data handling in memory.
+Event aggregator is a simple server service. It should be written in **Golang** or **Node** and run with the newest version.
+Try to use only standard libraries and implement all data handling in memory.
 The service should be able to capture incoming *events* and provide aggregated data. 
 Therefor, there should be 2 main endpoints for the service:
 ```
